@@ -224,5 +224,5 @@ var source_map_consumer = sourceMap.SourceMapConsumer;
       return xmlhttp;
   }
 
-  modules.exports = mapStackTrace;
+  module.exports = mapStackTrace;
   
