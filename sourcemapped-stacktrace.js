@@ -12,8 +12,7 @@
 
 // note we only include source-map-consumer, not the whole source-map library,
 // which includes gear for generating source maps that we don't need
-var sourceMap = require('source-map');
-var source_map_consumer = sourceMap.SourceMapConsumer;
+var source_map_consumer = require('source-map');
   /**
    * Re-map entries in a stacktrace using sourcemaps if available.
    *
